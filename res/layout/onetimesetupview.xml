@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:layout_column="1"
+    	android:gravity="left"
+    	android:layout_width="150dp"
+    	android:layout_height="wrap_content"
+    	android:text="Mobile number"
+    	android:padding="3dp" />
+    <EditText android:gravity="right"
+    	android:layout_height="wrap_content"
+        android:inputType="phone" 
+        android:id="@+id/phoneNumberTextField" android:layout_width="fill_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp"/>
+    <TextView android:gravity="left"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Email address"
+    	android:padding="3dp" />
+    <EditText android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent" 
+    	android:id="@+id/editText1" 
+    	android:inputType="textEmailAddress" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp">
+    </EditText>
+    <TextView android:gravity="left"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Enter password"
+    	android:padding="3dp" />
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editText2" android:inputType="textPassword" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp">
+    </EditText>
+    <TextView android:gravity="left"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="Confirm password"
+    	android:padding="3dp" />
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editText3" android:inputType="textPassword" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp"></EditText>
+    <Button android:id="@+id/submitAccountInfoButton" 
+    	android:text="Submit account info" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginTop="40dp"></Button>
+</LinearLayout>
