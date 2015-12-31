@@ -1,4 +1,4 @@
 GoCart
 ======
 
-android java code for gocart app foo
+android java code for gocart app
